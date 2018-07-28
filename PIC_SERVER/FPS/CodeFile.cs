@@ -4937,7 +4937,7 @@ namespace FPS
 
             Debug.WriteLine("TRYING TO PRINT... REPORT + " + Printer.iStatus);
 
-            if (true /*Printer.iStatus==1*/)
+            if (Printer.iStatus==1)
             {
                 sReport = "";
                 sReportTime = lEodReports[iPassIndex].sReportTime;
